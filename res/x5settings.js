@@ -92,15 +92,6 @@
 		'imageFile' : 'style/page-to-top.png'
 	});
 
-	if (s.imAdv.show) {
-		s.imSplashBox.id = 'splashbox-advcorner';
-		s.imSplashBox.position = 'center';
-		s.imSplashBox.effect = 'animated swing';
-		s.imSplashBox.cookie = true;
-		s.imSplashBox.link = function () { x5engine.utils.location('http://localhost/about-me-1.html#forma', null, false); };
-		s.imSplashBox.shadow = false;
-		s.imSplashBox.media = { "type": "image", "url": x5engine.settings.currentPath + "images/316808251_508234134674044_6876590171808225490_n.jpg", "width": 960, "height": 960 };
-	}
 	// Captcha
 	b.push(function () {
 		x5engine.captcha.instance = new x5engine.captcha.x5captcha({

@@ -2,19 +2,37 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1" xmlns:video="http://www.google.com/schemas/sitemap-video/1.1">
 	<url>
 		<loc>http://localhost/index.html</loc>
-		<lastmod>2022-12-02</lastmod>
+		<lastmod>2022-12-08</lastmod>
 		<changefreq>monthly</changefreq>
 		<priority>0.5</priority>
 	</url>
 	<url>
 		<loc>http://localhost/about-me-1.html</loc>
-		<lastmod>2022-12-02</lastmod>
+		<lastmod>2022-12-08</lastmod>
 		<changefreq>monthly</changefreq>
 		<priority>0.5</priority>
 	</url>
 	<url>
-		<loc>http://localhost/shop.html</loc>
-		<lastmod>2022-12-02</lastmod>
+		<loc>http://localhost/cakes.html</loc>
+		<lastmod>2022-12-13</lastmod>
+		<changefreq>monthly</changefreq>
+		<priority>0.5</priority>
+	</url>
+	<url>
+		<loc>http://localhost/pies.html</loc>
+		<lastmod>2022-12-13</lastmod>
+		<changefreq>monthly</changefreq>
+		<priority>0.5</priority>
+	</url>
+	<url>
+		<loc>http://localhost/cookies---biscotti.html</loc>
+		<lastmod>2022-12-13</lastmod>
+		<changefreq>monthly</changefreq>
+		<priority>0.5</priority>
+	</url>
+	<url>
+		<loc>http://localhost/custom-cakes.html</loc>
+		<lastmod>2022-12-13</lastmod>
 		<changefreq>monthly</changefreq>
 		<priority>0.5</priority>
 	</url>

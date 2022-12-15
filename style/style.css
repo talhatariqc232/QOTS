@@ -151,7 +151,7 @@ body.wysiwyg p { margin: 0; line-height: 28px; }
 .imAbbr:link { background-color: transparent; color: rgba(0, 0, 0, 1); text-decoration: none; }
 .imAbbr:visited { background-color: transparent; color: rgba(0, 0, 0, 1); text-decoration: none; }
 .imAbbr:hover, .imAbbr:active { background-color: transparent; color: rgba(84, 210, 240, 1); text-decoration: none; }
-#imPage input[type=text], #imPage input[type=password], #imPage input[type=email], #imPage input[type=tel], textarea, span.textarea, #cart-container .user-form select { font: inherit; border-style: solid; border-width: 0px 0px 0px 0px; border-color: rgba(159, 171, 176, 1) rgba(159, 171, 176, 1) rgba(159, 171, 176, 1) rgba(159, 171, 176, 1); background-color: rgba(255, 255, 255, 1); color: rgba(0, 0, 0, 1); border-top-left-radius: 3px; border-top-right-radius: 3px; border-bottom-left-radius: 3px; border-bottom-right-radius: 3px;padding: 10px 10px 10px 10px; box-shadow: none; box-sizing: border-box; }
+#imPage input[type=text], #imPage input[type=password], #imPage input[type=email], #imPage input[type=tel], textarea, span.textarea, #cart-container .user-form select { font: inherit; border-style: solid; border-width: 0px 0px 0px 0px; border-color: rgba(159, 171, 176, 1) rgba(159, 171, 176, 1) rgba(159, 171, 176, 1) rgba(159, 171, 176, 1); background-color: rgb(119, 218, 243); color: rgba(0, 0, 0, 1); border-top-left-radius: 3px; border-top-right-radius: 3px; border-bottom-left-radius: 3px; border-bottom-right-radius: 3px;padding: 10px 10px 10px 10px; box-shadow: none; box-sizing: border-box; }
 #imPage input[type=text].captchaInvalid, #imPage input[type=text].mandatoryInvalid, #imPage input[type=password].mandatoryInvalid, #imPage input[type=email].mandatoryInvalid, #imPage input[type=tel].mandatoryInvalid, textarea.mandatoryInvalid, span.textarea.mandatoryInvalid { border-color: red; }
 textarea { resize: none; }
 #imPage input[type=button], #imPage input[type=submit], #imPage input[type=reset], #imPage button.imButton {padding: 37px 52px 37px 52px; cursor: pointer; font: inherit; background-color: rgba(98, 89, 147, 1); color: rgba(0, 255, 255, 1); border-style: solid; border-width: 4px 4px 4px 4px; border-color: rgba(0, 255, 255, 1) rgba(0, 255, 255, 1) rgba(0, 255, 255, 1) rgba(0, 255, 255, 1); border-top-left-radius: 0px; border-top-right-radius: 0px; border-bottom-left-radius: 0px; border-bottom-right-radius: 0px;box-sizing: content-box; -webkit-appearance: none; }
@@ -212,30 +212,6 @@ input[type=button], input[type=submit], input[type=reset], button { -webkit-appe
 .splashbox { position: fixed; padding: 0; background-color: transparent; border: none; }
 .splashbox img { cursor: pointer; }
 .splashbox .imClose { position: absolute; top: -10px; right: -10px; z-index: 1; }
-
-
-/* Advertising Corner */
-#splashbox-advcorner .imClose { position: absolute; top: 0; right: 0; }
-html:not(.no-cssanimations) #splashbox-advcorner.animated {   -webkit-animation-duration: 1000ms;
-  animation-duration: 1000ms;
-  -webkit-animation-iteration-count: 1;
-  animation-iteration-count: 1;
-}
-@-webkit-keyframes splashbox-advcorner-anim-swing {
-	20% { -webkit-transform: rotate3d(0, 0, 1, 15deg);    transform: rotate3d(0, 0, 1, 15deg); }
-	40% { -webkit-transform: rotate3d(0, 0, 1, -10deg);    transform: rotate3d(0, 0, 1, -10deg); }
-	60% { -webkit-transform: rotate3d(0, 0, 1, 5deg);    transform: rotate3d(0, 0, 1, 5deg); }
-	80% { -webkit-transform: rotate3d(0, 0, 1, -5deg);    transform: rotate3d(0, 0, 1, -5deg); }
-	100% { -webkit - transform: rotate3d(0, 0, 1, 0deg); transform: rotate3d(0, 0, 1, 0deg); }
-}
-@keyframes splashbox-advcorner-anim-swing {
-	20% { -webkit-transform: rotate3d(0, 0, 1, 15deg);    transform: rotate3d(0, 0, 1, 15deg); }
-	40% { -webkit-transform: rotate3d(0, 0, 1, -10deg);    transform: rotate3d(0, 0, 1, -10deg); }
-	60% { -webkit-transform: rotate3d(0, 0, 1, 5deg);    transform: rotate3d(0, 0, 1, 5deg); }
-	80% { -webkit-transform: rotate3d(0, 0, 1, -5deg);    transform: rotate3d(0, 0, 1, -5deg); }
-	100% { -webkit - transform: rotate3d(0, 0, 1, 0deg); transform: rotate3d(0, 0, 1, 0deg); }
-}
-#splashbox-advcorner.animated.swing {  -webkit-animation-name: splashbox-advcorner-anim-swing;  animation-name: splashbox-advcorner-anim-swing; -webkit-transform-origin: top center;  transform-origin: top center; }
 #welcome-flags { margin: 0 auto; text-align: center; }
 #welcome-flags div { display: inline-block; margin: 10px; }
 #welcome-mediaplayertarget { overflow: hidden; }

@@ -20,7 +20,7 @@
 		<link rel="stylesheet" href="style/template.css?2022-2-11-0" media="screen" />
 		
 		<link rel="stylesheet" href="pluginAppObj/imFooter_pluginAppObj_04/custom.css" media="screen, print" /><link rel="stylesheet" href="pluginAppObj/imFooter_pluginAppObj_06/custom.css" media="screen, print" />
-		<link rel="stylesheet" href="pcss/imsearch.css?2022-2-11-0-638055959918073934" media="screen,print" />
+		<link rel="stylesheet" href="pcss/imsearch.css?2022-2-11-0-638067109240085103" media="screen,print" />
 		<script src="res/jquery.js?2022-2-11-0"></script>
 		<script src="res/x5engine.js?2022-2-11-0" data-files-version="2022-2-11-0"></script>
 		
@@ -30,7 +30,7 @@
 			x5engine.utils.currentPagePath = 'imsearch.php';
 			x5engine.boot.push(function () { x5engine.imPageToTop.initializeButton({}); });
 		</script>
-		<link rel="icon" href="favicon.ico?2022-2-11-0-638055959917841982" type="image/vnd.microsoft.icon" />
+		<link rel="icon" href="favicon.ico?2022-2-11-0-638067109240037200" type="image/vnd.microsoft.icon" />
 	</head>
 	<body>
 		<div id="imPageExtContainer">
@@ -60,14 +60,36 @@ HOME PAGE		</a>
 ABOUT ME		</a>
 </div>
 </div>
-	</li><li class="imMnMnLast imPage" data-link-paths=",/shop.html">
+	</li><li class="imMnMnLast imLevel"><div class="label-wrapper"><div class="label-inner-wrapper"><span class="label">SHOP</span></div></div><div class="multiple-column" style=" width: 200px;"><ul  class="open-right imUlCl-1">
+<li class="imMnMnFirst imPage" data-link-paths=",/cakes.html">
 <div class="label-wrapper">
 <div class="label-inner-wrapper">
-		<a class="label" href="shop.html">
-SHOP		</a>
+		<a class="label" href="cakes.html">
+CAKES		</a>
 </div>
 </div>
-	</li></ul></div></div><!-- UNSEARCHABLE END --><script>
+	</li><li class="imMnMnFirst imPage" data-link-paths=",/cookies---biscotti.html">
+<div class="label-wrapper">
+<div class="label-inner-wrapper">
+		<a class="label" href="cookies---biscotti.html">
+COOKIES &amp; BISCOTTI		</a>
+</div>
+</div>
+	</li><li class="imMnMnFirst imPage" data-link-paths=",/pies.html">
+<div class="label-wrapper">
+<div class="label-inner-wrapper">
+		<a class="label" href="pies.html">
+PIES		</a>
+</div>
+</div>
+	</li><li class=" imPage" data-link-paths=",/custom-cakes.html">
+<div class="label-wrapper">
+<div class="label-inner-wrapper">
+		<a class="label" href="custom-cakes.html">
+CUSTOM CAKES		</a>
+</div>
+</div>
+	</li></ul></div></li></ul></div></div><!-- UNSEARCHABLE END --><script>
 var imHeader_imMenuObject_04_settings = {
 	'menuId': 'imHeader_imMenuObject_04',
 	'responsiveMenuEffect': 'slide',
@@ -141,7 +163,7 @@ $(function () {$('#imHeader_imMenuObject_04_container ul li').not('.imMnMnSepara
 </div><div id="imFooter_imTextObject_08_wrapper" class="template-object-wrapper"><div id="imFooter_imTextObject_08">
 	<div data-index="0"  class="text-tab-content grid-prop current-tab "  id="imFooter_imTextObject_08_tab0" style="opacity: 1; ">
 		<div class="text-inner">
-			<div><i><span class="fs14lh1-5 cf1"><b>Powered by Madsen Technologies</b></span></i></div>
+			<div><i><span class="fs14lh1-5 cf1"><b>Powered by Chimaera Technologies</b></span></i></div>
 		</div>
 	</div>
 
@@ -152,7 +174,7 @@ $(function () {$('#imHeader_imMenuObject_04_container ul li').not('.imMnMnSepara
 				<span class="imHidden"><a href="#imGoToCont" title="Read this page again">Back to content</a></span>
 			</div>
 		</div>
-		<script src="cart/x5cart.js?2022-2-11-0-638055959918073934"></script>
+		<script src="cart/x5cart.js?2022-2-11-0-638067109240085103"></script>
 		<noscript class="imNoScript"><div class="alert alert-red">To use this website you must enable JavaScript.</div></noscript>
 	</body>
 </html>
