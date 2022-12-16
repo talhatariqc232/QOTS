@@ -21,14 +21,12 @@ if (isset($_POST['send'])) {
 		$mailer->emailType = 'phpmailer';
 		if ($_POST['type'] == 'phpmailer-smtp') {
 			$mailer->use_smtp = true;
-			$mailer->smtp_port = $_POST['smtpport'];
-			$mailer->smtp_host = $_POST['smtphost'];
-			$mailer->smtp_encryption = $_POST['smtpencryption'];
-			if (@$_POST['smtpauth'] == "1") {
-				$mailer->use_smtp_auth = true;
-				$mailer->smtp_username = $_POST['smtpusername'];
-				$mailer->smtp_password = $_POST['smtppassword'];
-			}
+			$mailer->smtp_port = 465;
+			$mailer->smtp_host = 'smtp.sendgrid.net';
+			$mailer->smtp_encryption = 'ssl';
+			$mailer->use_smtp_auth = true;
+			$mailer->smtp_username = 'apikey';
+			$mailer->smtp_password = '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';
 		}					
 	} else {
 		$mailer->emailType = $_POST['type'];
@@ -41,11 +39,11 @@ if (isset($_POST['send'])) {
 	$_SESSION['form_test_to'] = $_POST['to'];
 	$_SESSION['form_test_subject'] = $_POST['subject'];
 	$_SESSION['form_test_body'] = $_POST['body'];
-	$_SESSION['form_test_smtphost'] = $_POST['smtphost'];
-	$_SESSION['form_test_smtpport'] = $_POST['smtpport'];
-	$_SESSION['form_test_smtpencryption'] = $_POST['smtpencryption'];
+	$_SESSION['form_test_smtphost'] = 'smtp.sendgrid.net';
+	$_SESSION['form_test_smtpport'] = 465;
+	$_SESSION['form_test_smtpencryption'] = 'ssl';
 	$_SESSION['form_test_smtpauth'] = @$_POST['smtpauth'];
-	$_SESSION['form_test_smtpusername'] = $_POST['smtpusername'];
+	$_SESSION['form_test_smtpusername'] = 'apikey';
 	echo "<script>window.top.location.href = 'sitetest.php?result=" . ($result ? 1 : 0) . "';</script>";
 	exit();
 }
